@@ -1,0 +1,144 @@
+//------------------------------------ Primitive Data Types ------------------------
+
+let age = 22; // Number
+let name = "Ashutosh"; // String
+let isStudent = true; // Boolean
+let city; // Undefined
+let data = null; // Null
+let big = 12345678901234567890n; // BigInt
+let id = Symbol("userId"); // Symbol
+
+console.log("Primitive Data Types:");
+console.log(age, name, isStudent, city, data, big, id);
+console.log(typeof null); // object (JavaScript bug)
+console.log();
+
+//------------------------------------ Non-Primitive Data Types ------------------------
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+let person = {
+  name: "Ashutosh",
+  age: 22,
+};
+
+function greet() {
+  console.log("Hello, Welcome!");
+}
+
+console.log("Non-Primitive Data Types:");
+console.log(fruits);
+console.log(person);
+greet();
+console.log();
+
+//------------------------------------ Operators ------------------------
+
+//=====================================================================
+// 1. Arithmetic Operators
+//=====================================================================
+
+let a = 10;
+let b = 3;
+
+console.log("Arithmetic Operators");
+console.log("Addition:", a + b);
+console.log("Subtraction:", a - b);
+console.log("Multiplication:", a * b);
+console.log("Division:", a / b);
+console.log("Modulus:", a % b);
+console.log("Exponent:", a ** 2);
+
+let c = 5;
+console.log("Post Increment:", c++);
+console.log("After Increment:", c);
+
+console.log("Post Decrement:", c--);
+console.log("After Decrement:", c);
+
+console.log("Pre Increment:", ++c);
+console.log("Pre Decrement:", --c);
+
+console.log();
+
+//=====================================================================
+// 2. Assignment Operators
+//=====================================================================
+
+let x = 10;
+
+console.log("Assignment Operators");
+
+x += 5;
+console.log("x += 5 =", x);
+
+x -= 2;
+console.log("x -= 2 =", x);
+
+x *= 2;
+console.log("x *= 2 =", x);
+
+x /= 2;
+console.log("x /= 2 =", x);
+
+x %= 4;
+console.log("x %= 4 =", x);
+
+x **= 3;
+console.log("x **= 3 =", x);
+
+console.log();
+
+//=====================================================================
+// 3. Comparison Operators
+//=====================================================================
+
+let p = 10;
+let q = "10";
+
+console.log("Comparison Operators");
+
+console.log("== :", p == q);     // true
+console.log("=== :", p === q);   // false
+console.log("!= :", p != q);     // false
+console.log("!== :", p !== q);   // true
+console.log("> :", p > 5);
+console.log("< :", p < 20);
+console.log(">= :", p >= 10);
+console.log("<= :", p <= 5);
+
+console.log();
+
+//=====================================================================
+// 4. Logical Operators
+//=====================================================================
+
+let hasID = true;
+let hasTicket = false;
+
+console.log("Logical Operators");
+
+console.log("AND (&&):", hasID && hasTicket);
+console.log("OR (||):", hasID || hasTicket);
+console.log("NOT (!):", !hasID);
+
+console.log();
+
+//=====================================================================
+// 5. Bitwise Operators
+//=====================================================================
+
+let m = 5;
+let n = 1;
+
+console.log("Bitwise Operators");
+
+console.log("AND (&):", m & n);
+console.log("OR (|):", m | n);
+console.log("XOR (^):", m ^ n);
+console.log("NOT (~):", ~m);
+console.log("Left Shift (<<):", m << 1);
+console.log("Right Shift (>>):", m >> 1);
+
+console.log();
+
