@@ -26,6 +26,10 @@ body {
   gap: 12px;
 }
 
+.nav-buttons a {
+  text-decoration: none;
+}
+
 .nav-buttons button {
   background-color: #3498db;
   color: white;
